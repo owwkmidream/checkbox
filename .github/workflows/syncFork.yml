@@ -1,9 +1,9 @@
 # File: .github/workflows/repo-sync.yml
-
+name: repo-sync
 on:
   push:
   schedule:
-  - cron:  "0 5 */7 * *"
+    - cron:  "0 5 */7 * *"
   workflow_dispatch:
 
 jobs:
